@@ -29,7 +29,6 @@ gem 'guard-rspec'
 group :development, :test do
   gem 'sqlite3', '1.3.5'
   gem 'rspec-rails', '2.8.1'
-  gem 'webrat', '0.7.1'
 end
 
 group :test do
