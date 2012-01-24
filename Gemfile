@@ -21,6 +21,13 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'spork'
+gem 'guard-spork'
+gem 'guard-rspec'
+
+# guard notifications on Linux
+  gem 'rb-inotify', :require => false if RUBY_PLATFORM =~ /linux/i
+  gem 'libnotify', :require => false if RUBY_PLATFORM =~ /linux/i
 
 group :development do
   gem 'rspec-rails', '2.6.1'
