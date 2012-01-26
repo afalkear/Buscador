@@ -1,7 +1,12 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.0'
+
+# Gem added to end problems with .coffee files
 gem 'therubyracer'
+
+# Gem to generate precompiled pages
+gem 'sprockets', '~> 2.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
